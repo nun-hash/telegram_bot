@@ -3,9 +3,6 @@ import re
 import matplotlib.pyplot as plt
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
-from dotenv import load_dotenv  # Add this import
-
-load_dotenv()  # Load environment variables from .env
 
 # Function to render LaTeX to PNG
 def render_latex_to_png(latex_code, filename):
